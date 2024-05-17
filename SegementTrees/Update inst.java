@@ -1,4 +1,4 @@
-public class Hare {
+public class UpdateOnST {
     static int tree[];
 
     public static void initialize(int n) {
@@ -56,7 +56,7 @@ public class Hare {
 
        /* for(int i=0; i<tree.length; i++) {
             System.out.print(tree[i]+", ");
-        } */
+        } **/
         System.out.println(getSum(arr, 2, 5)); //18
         update(arr, 2, 2);
         System.out.println(getSum(arr, 2, 5)); //17
